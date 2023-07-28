@@ -1,0 +1,97 @@
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+
+/* Task Manager Styles */
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Task Input Styles */
+.task-input {
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.task-input input[type="text"] {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.task-input button {
+    width: 100px;
+    padding: 10px;
+    margin-left: 10px;
+    background-color: black;
+    /* background-color: #007__ANNA_bff; */
+    color: #0dcaf0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+/* Task Table Styles */
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th,
+td {
+    padding: 10px;
+    text-align: left;
+}
+
+th {
+    background-color: black;
+    color: #0dcaf0;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+/* Task Action Buttons Styles */
+.action-buttons button {
+    padding: 5px;
+    margin-right: 5px;
+    background-color: black;
+    color: #0dcaf0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+header {
+    background-color: black;
+    color: #0dcaf0;
+    padding: 10px;
+    text-align: center;
+}
+
+/* Footer Styles */
+footer {
+    background-color: black;
+    color: #0dcaf0;
+    padding: 10px;
+    text-align: center;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
